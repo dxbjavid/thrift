@@ -135,6 +135,7 @@ fi
 # unit tests
 
 node ${DIR}/binary.test.js || TESTOK=1
+node ${DIR}/binary_protocol.test.js || TESTOK=1
 node ${DIR}/bigint_helpers.test.js || TESTOK=1
 node ${DIR}/check_set_uniqueness.test.js || TESTOK=1
 node ${DIR}/header.test.js || TESTOK=1
